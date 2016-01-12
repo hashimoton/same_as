@@ -22,8 +22,8 @@ module SameAs
     return is_same_as
   end
   
-  # Returns true if the strings of both elements in self and the other array
-  # start with a same string.
+  # Returns true if either of each corresponding strings in self and the other array
+  # includes the other from the first character.
   # Returns false if otherwise.
   def same_prefix?(other_ary)
     return self.same_as?(other_ary) {|a, b| a.start_with?(b) || b.start_with?(a)}
