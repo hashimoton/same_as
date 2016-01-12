@@ -51,6 +51,7 @@ Run the test script in test directory.
 ```
 $ cd test
 $ ruby test_same_as.rb
+```
 
 
 ## Contributing
